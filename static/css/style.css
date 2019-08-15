@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(92, 92, 92);
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+
+#Stockname{
+    width: 500px;
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.demo1 {
+    position: relative;
+    text-decoration-color: red;
+}
+
+.demo2 {
+    position: relative
+}
+
+.info{
+    color: rgb(2, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+#buttonThing{
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(5, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 15px 24px;
+    transition-duration: 0.4s;
+    width: 130px;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(0, 0, 0);
+}
+  
+.button1:hover {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 75px;
+}

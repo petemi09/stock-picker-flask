@@ -1,0 +1,33 @@
+<!--Created By Mitchell Petellin-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Page</title>
+        
+        <link rel="stylesheet" href="static/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+<body>
+
+<h1>Stock Picker</h1>
+<div id="Stockname">
+    <h3 id="demo2" class="info1"> {{ name }}</h3>
+    <h4 id="demo1" class="info2"> {{ other }}</h4>
+</div>
+
+<div id="buttonThing">
+    <form action = "http://localhost:5000/results" method = "POST">
+        <button class="button button1">Generate</button>
+    </form>
+    <form action = "http://localhost:5000/" method = "GET">
+        <button class="button button1">Reset</button>
+    </form>
+</div>
+
+<footer id="footer">Created By: Mitchell Petellin</footer>
+</body>
+</html>
